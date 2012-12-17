@@ -229,7 +229,12 @@ ul.testimonials-list .img {
 
 
 @media (min-width: 1200px) {
-	
+    .pricing-plans {
+        position:relative;
+        top: -280px;
+        
+    }
+    
 	.landing-text h1 {
 		margin-bottom: .15em;
 	
@@ -249,7 +254,14 @@ ul.testimonials-list .img {
 
 
 @media (min-width: 767px) and (max-width: 979px) {
-	
+	.pricing-plans .plan-container {
+            width: 100% !important;
+
+        }
+        .pricing-plans .plan-container .plan-price{
+            font-size: 44px;
+
+        }
 	.landing-text h1 {	
 		font-size: 18px;	
 		font-weight: 600;
