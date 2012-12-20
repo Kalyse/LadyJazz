@@ -69,6 +69,11 @@
 	
     border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
+.plan-img img {
+    width: 100%;
+    border: none;
+    padding: 0px;
+}
 
 .plan-price span.term {
     display: block;
