@@ -15,7 +15,10 @@
 /*------------------------------------------------------------------
 [Navbar]
 */
-
+.thumbnail.banner img {
+    width: 100%
+    
+}
 .navbar .nav > li.active > a,
 .navbar .nav > li.active > a:hover {
 	color: #3F9EC4;
